@@ -3,3 +3,6 @@ class IconHelper {
 }
 
 const int kDurationSplashScreen = 3;
+
+const String kColorThemeLight = 'light';
+const String kColorThemeDark = 'dark';
