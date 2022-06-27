@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_shopping_application/constants.dart';
 import 'package:flutter_shopping_application/data/mocks/sample_json.dart';
-import 'package:flutter_shopping_application/repository/contact.dart';
 import 'screens/screens.dart';
 
 void main() {

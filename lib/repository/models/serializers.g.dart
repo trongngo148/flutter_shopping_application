@@ -8,6 +8,7 @@ part of 'serializers.dart';
 
 Serializers _$serializers = (new Serializers().toBuilder()
       ..add(Career.serializer)
+      ..add(Category.serializer)
       ..add(Contact.serializer)
       ..addBuilderFactory(
           const FullType(BuiltList, const [const FullType(String)]),

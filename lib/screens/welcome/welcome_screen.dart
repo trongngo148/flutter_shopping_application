@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_shopping_application/constants.dart';
 import 'package:flutter_shopping_application/data/mocks/sample_json.dart';
+import 'package:flutter_shopping_application/repository/models/contact.dart';
 import 'package:flutter_shopping_application/widgets/icon_font.dart';
 
-import '../../repository/contact.dart';
 import '../screens.dart';
 
 class WelcomeScreen extends StatelessWidget {
@@ -12,6 +12,9 @@ class WelcomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var temp = Contact.fromJson(test);
+    // var temp2 = Contact((b) => b
+    //   ..id = 1
+    //   ..age = 8);
     print(temp!.date);
     return Scaffold(
       body: Container(
