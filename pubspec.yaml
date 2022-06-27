@@ -41,6 +41,8 @@ dev_dependencies:
     sdk: flutter
   build_runner: ^2.1.11
   built_value_generator: ^8.3.3
+  analyzer: ^4.1.0
+  build_resolvers: ^2.0.9
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is

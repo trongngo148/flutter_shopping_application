@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_shopping_application/constants.dart';
+import 'package:flutter_shopping_application/data/mocks/sample_json.dart';
 import 'package:flutter_shopping_application/widgets/icon_font.dart';
 
+import '../../repository/contact.dart';
 import '../screens.dart';
 
 class WelcomeScreen extends StatelessWidget {
@@ -9,6 +11,8 @@ class WelcomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var temp = Contact.fromJson(test);
+    print(temp!.date);
     return Scaffold(
       body: Container(
         color: Colors.black,
